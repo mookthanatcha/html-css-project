@@ -1,0 +1,48 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:200px 200px;
+    grid-gap: 50px;
+    background-color: #2196F3;
+    padding: 50px;
+    border-radius: 20px;
+    border : 10px solid black;
+    margin: 10px;
+  }
+  
+  .grid-container > div {
+    border-radius: 10px;
+    background-color:white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    padding-top: 40px;
+    font-weight: bolder;
+    font-size: 72px;
+    text-shadow: -2px 1px #FF0000;
+    position: relative;
+
+
+  }
+  .centered-element {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 38%;
+    margin-left: -50px;
+    top: 30%;
+    margin-top: -50px;
+    background-color: azure; 
+opacity: 0.2;
+    border-radius: 50px;
+
+  }
+  .border{
+      background-color: #2196F3;
+      border-radius: 20px;
+  }
+
+  .inborder{
+      position: absolute;
+      background-color: blue;
+  }
